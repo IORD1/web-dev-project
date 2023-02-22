@@ -1,20 +1,16 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>IRCTC Next Generation eTicketing System</title>
    <link rel="stylesheet/css" href="style.css">
    
    <style>
-    body {
 
+	body{
+		padding: 0%;
+		margin : 0;
+	}
 
-    } 
-    #navbar{
-    
-    	background-color : white;
-    	width : 100%;
-    	height : 20%;
-    }
     
     li{
     	font-size:20px;
@@ -23,14 +19,29 @@
    </style>
 </head>
 
-<body     background="rail.png">
-
+<body     background="https://www.irctc.co.in/nget/home_page_banner1.ab4db3998511d52c6612.jpg">
+<!-- -------------------------------NAVBAR------------------------------- -->
 	<div id='navbar' > 
-		<a href="https://www.irctc.co.in/nget/train-search" traget=""><img src="logo.png" alt="logo" style="width:42px;height:42px;"></a>	
+
+		<a href="https://www.irctc.co.in/nget/train-search" traget=""><img src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" alt="logo" style="width:80px;height:80px;"></a>	
+    <div id="navbar-right">
+    <a href="https://www.irctc.co.in/nget/train-search" traget=""><img src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="logo" style="width:69.5px;height:80px;"></a>
+    
+    <button id="login">LOGIN</button>
+    </div>
 	</div>
-	
+  
+<!--   ---------------------------------RESTBODY--------------------------- -->
 	
 			<div id="restbody">
+        <div id="leftbody">sadf</div>
+        <div id="rightbody">
+          <div>
+          <p id="heading">INDIAN RAILWAYS</p>
+          <P id="subheading">Safety | Security | Punctuality |</p>
+        </div>
+        </div>
+       </div>
 			<h2> Search for Trains</h2>
 			 <form action="/">
 			 
@@ -68,7 +79,10 @@
 			  <li>Please input correct mobile number of passenger for getting timely alerts on booked journey.</li>
 			</ul> 
 
-		</div>
+		
+
+
+		
 
 </body>
 </html>
