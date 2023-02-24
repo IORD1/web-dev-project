@@ -1,88 +1,130 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>IRCTC Next Generation eTicketing System</title>
-   <link rel="stylesheet/css" href="style.css">
-   
-   <style>
-
-	body{
-		padding: 0%;
-		margin : 0;
-	}
-
-    
-    li{
-    	font-size:20px;
-    	color:white;
-    }
-   </style>
+	<link rel="stylesheet" href="style.css">
 </head>
 
-<body     background="https://www.irctc.co.in/nget/home_page_banner1.ab4db3998511d52c6612.jpg">
-<!-- -------------------------------NAVBAR------------------------------- -->
-	<div id='navbar' > 
+<body>
+	<!-- -------------------------------NAVBAR------------------------------- -->
+	<div id='navbar'>
 
-		<a href="https://www.irctc.co.in/nget/train-search" traget=""><img src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" alt="logo" style="width:80px;height:80px;"></a>	
-    <div id="navbar-right">
-    <a href="https://www.irctc.co.in/nget/train-search" traget=""><img src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="logo" style="width:69.5px;height:80px;"></a>
-    
-    <button id="login">LOGIN</button>
-    </div>
+		<a href="https://www.irctc.co.in/nget/train-search" traget=""><img
+				src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" alt="logo"
+				style="width:80px;height:80px;"></a>
+		<div id="navbar-right">
+			<a href="https://www.irctc.co.in/nget/train-search" traget=""><img
+					src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="logo"
+					style="width:69.5px;height:80px;"></a>
+
+		</div>
 	</div>
-  
-<!--   ---------------------------------RESTBODY--------------------------- -->
-	
-			<div id="restbody">
-        <div id="leftbody">sadf</div>
-        <div id="rightbody">
-          <div>
-          <p id="heading">INDIAN RAILWAYS</p>
-          <P id="subheading">Safety | Security | Punctuality |</p>
-        </div>
-        </div>
-       </div>
-			<h2> Search for Trains</h2>
-			 <form action="/">
-			 
-			 
-			  <table>
-				  <tr>
-					<td>
-						<label for="from">From</label><br>
-			  			<input type="text" id="from" placeholder="Enter city"><br><br>
-					</td>
-					<td> 
-						<label for="to">To</label><br>
-			  				<input type="text" id="to" placeholder="Enter destination"><br><br>
-						
-					</td>
-				  </tr>
-				  <tr>
-					<td>
-						<label for="date">Date</label><br>
-			  			<input type="date" id="Date" value="date"><br><br>
-					</td>
-				  </tr>
-				  <tr>
-					<td><input type="submit" value="Search"></td>
-				  </tr>
-				</table> 
-			 
-			 
-			</form> 
-			
-			
-			
-			 <ul>
-			  <li> Tickets booked through unauthorised agents or scripting can be released without refund.</li>
-			  <li>Please input correct mobile number of passenger for getting timely alerts on booked journey.</li>
-			</ul> 
 
-		
+	<!--   ---------------------------------RESTBODY--------------------------- -->
+
+	<div id="restbody"  background="">
+
+		<!-- ----------------------LEFT HOME-------------------- -->
+		<div id="leftbody">
+			<div id="formcontainer">
+				<div id="formtab">
+					<div id="lefttab" class="tabs">
+						<div class="icon">
+							<img src="https://www.irctc.co.in/nget/assets/images/icons/pnr.png" alt="pnrstatus">
+						</div>
+						<div class="tabtext">
+							PNR STATUS
+						</div>
+					</div>
+					<div id="righttab" class="tabs">
+						<div class="icon">
+							<img src="https://www.irctc.co.in/nget/assets/images/icons/chart.png" alt="charts">
+						</div>
+						<div class="tabtext">
+							CHARTS / VACANCY
+						</div>
+					</div>
+				</div>
+				<div id="actualform">
+					<div id="formhead">
+						<div id="headfirstimg">
+							<img height="90px" src="https://www.irctc.co.in/nget/assets/images/logo_top_eng.jpg" alt="azadi ka mohotsav">
+						</div>
+						<div id="formheader">
+							BOOK TICKET
+						</div>
+						<div id="headsecondimg">
+							<img id="g20img" height="70px" width="auto" src="https://www.irctc.co.in/nget/assets/images/G20_Logo.png" alt="g20" >
+						</div>
+					</div>
+					<div id="forminputs">
+
+					</div>
+					<div id="formsubmit">
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- --------------------------RIGHT HOME------------------------------ -->
+		<div id="rightbody">
+			<div id="welcomeheading">
+				<p id="heading">INDIAN RAILWAYS</p>
+				<div id="subheadingcover">
+
+					<p class="subheading">Safety</p>
+					<p class="subheading">Security</p>
+					<p class="subheading">Punctuality</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<h2> Search for Trains</h2>
+	<form action="/">
 
 
-		
+		<table>
+			<tr>
+				<td>
+					<label for="from">From</label><br>
+					<input type="text" id="from" placeholder="Enter city"><br><br>
+				</td>
+				<td>
+					<label for="to">To</label><br>
+					<input type="text" id="to" placeholder="Enter destination"><br><br>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="date">Date</label><br>
+					<input type="date" id="Date" value="date"><br><br>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Search"></td>
+			</tr>
+		</table>
+
+
+	</form>
+
+
+
+	<ul>
+		<li> Tickets booked through unauthorised agents or scripting can be released without refund.</li>
+		<li>Please input correct mobile number of passenger for getting timely alerts on booked journey.</li>
+	</ul>
+
+
+
+
+
 
 </body>
+
 </html>

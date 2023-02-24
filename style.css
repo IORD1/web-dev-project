@@ -1,49 +1,154 @@
+body{
+  padding: 0%;
+  margin : 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
 
-#navbar{
-    padding : 11px;
-      background-color : white;
-      width : 100vw;
-      height : 80px;
-    display : flex;
-    justify-content: space-between;
-    
+}
+
+  
+  li{
+    font-size:20px;
+    color:white;
   }
 
-#login{
-width : 160px;
-height : 80px;
-border-radius : 15%;
-border : none;
-background-color : lightblue;
-margin : auto 20px auto 20px;
-}
 
-#navbar-right{
-display: flex;
-}
+#navbar {
+  padding: 11px 34px 11px 34px;
+  background-color: white;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
 
-
-#restbody{
-display : flex;
-}
-
-#leftbody{
-width : 50%;
-height : 200px
-}
-
-#rightbody{
-width : 50%;
-background-color :red;
-height : 80vh;
-display : flex;
-align-contents : center;
-justify-contents : center;
 
 }
 
-#heading{
-color : white;
-font-size : 40px;
-font-weight : 20;
+
+#login {
+  width: 160px;
+  height: 80px;
+  border-radius: 15%;
+  border: none;
+  background-color: lightblue;
+  margin: auto 20px auto 20px;
+}
+
+#navbar-right {
+  display: flex;
+}
+
+
+#restbody {
+  display: flex;
+  height: 84vh;
+  width: 100%;
+  background-image: url("https://www.irctc.co.in/nget/home_page_banner1.ab4db3998511d52c6612.jpg");
+}
+
+#leftbody {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content:end;
+  align-items: center;
+  padding-right: 20px;
+}
+
+#rightbody {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#heading {
+  font-size: 3rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0px;
+
+}
+
+#subheadingcover{
+  display: flex;
+}
+
+.subheading{
+  width: 100%;
+  text-align: center;
+  border-right: 1px solid;
+padding-bottom: 5px;
+font-size: 1.2rem;
+font-weight: 550;
+}
+
+#welcomeheading{
+  color: white;
+}
+
+#formcontainer{
+  height: 90%;
+  width: 90%;
+
+}
+
+#formtab{
+  height: 7%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#actualform{
+  height: 93%;
+  width: 100%;
+  background-color: white;
+}
+.tabs{
+  background-color: #213d77;
+  width: 49.5%;
+  height: 100%;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+.icon{
+  margin-right: 20px;
+}
+.tabtext{
+
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: white;
+}
+
+.tabs:hover{
+  cursor: pointer;
+}
+
+#formhead{
+  height: 20%;
+  display: flex;
+  padding: 8px 15px 5px 15px;
+  justify-content: center;
+}
+
+
+#forminputs{
+  background-color: blueviolet;
+  height: 65%;
+}
+
+
+#formsubmit{
+  height: 15%;
+}
+
+#formheader{
+  font-weight: 700;
+  font-size: 30px;
+  color: #2f4676;
+  margin: 5px 35px 5px 35px;
 }
