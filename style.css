@@ -1,16 +1,18 @@
-body{
+body {
   padding: 0%;
-  margin : 0;
+  margin: 0;
   overflow-x: hidden;
   font-family: sans-serif;
+  line-height: 1.42857143;
+  letter-spacing: .35px;
 
 }
 
-  
-  li{
-    font-size:20px;
-    color:white;
-  }
+
+li {
+  font-size: 20px;
+  color: white;
+}
 
 
 #navbar {
@@ -49,7 +51,7 @@ body{
   width: 50%;
   height: 100%;
   display: flex;
-  justify-content:end;
+  justify-content: end;
   align-items: center;
   padding-right: 20px;
 }
@@ -70,65 +72,66 @@ body{
 
 }
 
-#subheadingcover{
+#subheadingcover {
   display: flex;
 }
 
-.subheading{
+.subheading {
   width: 100%;
   text-align: center;
-  border-right: 1px solid;
-padding-bottom: 5px;
-font-size: 1.2rem;
-font-weight: 550;
+  padding-bottom: 120px;
+  font-size: 1.2rem;
+  font-weight: 550;
 }
 
-#welcomeheading{
+#welcomeheading {
   color: white;
 }
 
-#formcontainer{
+#formcontainer {
   height: 90%;
   width: 90%;
 
 }
 
-#formtab{
+#formtab {
   height: 7%;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-#actualform{
+#actualform {
   height: 93%;
   width: 100%;
   background-color: white;
 }
-.tabs{
+
+.tabs {
   background-color: #213d77;
   width: 49.5%;
   height: 100%;
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
 }
 
-.icon{
+.icon {
   margin-right: 20px;
 }
-.tabtext{
+
+.tabtext {
 
   font-size: 0.9rem;
   font-weight: 900;
   color: white;
 }
 
-.tabs:hover{
+.tabs:hover {
   cursor: pointer;
 }
 
-#formhead{
+#formhead {
   height: 20%;
   display: flex;
   padding: 8px 15px 5px 15px;
@@ -136,19 +139,62 @@ font-weight: 550;
 }
 
 
-#forminputs{
-  background-color: blueviolet;
-  height: 65%;
+#forminputs {
+  height: 80%;
+
 }
 
+#forminputs form {
+  width: 100%;
+  height: 100%;
 
-#formsubmit{
-  height: 15%;
 }
 
-#formheader{
+#forminputs table {
+  width: 100%;
+  height: 100%;
+  padding: 10px 25px 20px 25px;
+
+
+}
+
+#formheader {
   font-weight: 700;
   font-size: 30px;
   color: #2f4676;
   margin: 5px 35px 5px 35px;
+}
+
+
+.forminput {
+  border: 1px gray solid;
+  height: 38px;
+  border-radius: 3px;
+  color: #082b71;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.checkclasses {
+  padding-left: 3px;
+  color: #082b71;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 700;
+  font-family: sans-serif;
+  display: inline;
+  padding-right: 27px;
+}
+
+#submitit {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 700;
+  background-color: #fb792b;
+  border: none;
+  width: 110px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: 1rem;
 }
