@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>IRCTC Next Generation eTicketing System</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<!-- -------------------------------NAVBAR------------------------------- -->
+	<div id='navbar'>
+
+		<a href="https://www.irctc.co.in/nget/train-search" traget=""><img
+				src="https://www.irctc.co.in/nget/assets/images/secondry-logo.png" alt="logo"
+				style="width:80px;height:80px;"></a>
+		<div id="navbar-right">
+			<a href="https://www.irctc.co.in/nget/train-search" traget=""><img
+					src="https://www.irctc.co.in/nget/assets/images/logo.png" alt="logo"
+					style="width:69.5px;height:80px;"></a>
+
+		</div>
+	</div>
+
+	<!--   ---------------------------------RESTBODY--------------------------- -->
+
+	<div id="restbody"  background="">
+
+		<!-- ----------------------LEFT HOME-------------------- -->
+		<div id="leftbody">
+			<div id="formcontainer">
+				<div id="formtab">
+					<div id="lefttab" class="tabs">
+						<div class="icon">
+							<img src="https://www.irctc.co.in/nget/assets/images/icons/pnr.png" alt="pnrstatus">
+						</div>
+						<div class="tabtext">
+							PNR STATUS
+						</div>
+					</div>
+					<div id="righttab" class="tabs">
+						<div class="icon">
+							<img src="https://www.irctc.co.in/nget/assets/images/icons/chart.png" alt="charts">
+						</div>
+						<div class="tabtext">
+							CHARTS / VACANCY
+						</div>
+					</div>
+				</div>
+				<div id="actualform">
+					<div id="formhead">
+						<div id="headfirstimg">
+							<img height="90px" src="https://www.irctc.co.in/nget/assets/images/logo_top_eng.jpg" alt="azadi ka mohotsav">
+						</div>
+						<div id="formheader">
+							BOOK TICKET
+						</div>
+						<div id="headsecondimg">
+							<img id="g20img" height="70px" width="auto" src="https://www.irctc.co.in/nget/assets/images/G20_Logo.png" alt="g20" >
+						</div>
+					</div>
+					<div id="forminputs">
+						<form action="/">
+
+
+							<table>
+								<tr>
+									<td colspan="2">
+										<input type="text" id="from" class="forminput" placeholder="From"><br><br>
+									</td>
+									<td colspan="1">
+										<label for="date">Date</label><br>
+										<input type="date" class="forminput"  id="Date" value="date"><br><br>
+					
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<input type="text" class="forminput"  id="to" placeholder="To"><br><br>
+										
+									</td colspan="1">
+									<td>
+										<select id="classDropdown" class="forminput"  name="class">
+										  <option value="volvo">All Classes</option>
+										  <option values="">Anubhuti Class (EA)</option>
+										  <option values="">AC First Class (1A)</option>
+										  <option values="">Vistadome AC (EV)</option>
+										  <option values="">Exec. Chair Car (EC)</option>
+										  <option values="">AC 2 Tier (2A)</option>
+										  <option values="">First Class (FC)</option>
+										  <option values="">AC 3 Tier (3A)</option>
+										  <option values="">AC 3 Economy (3E)</option>
+										  <option values="">Vistadome Chair Car (VC)</option>
+										  <option values="">AC Chair car (CC)</option>
+										  <option values="">Sleeper (SL)</option>
+										  <option values="">Vistadome Non AC (VS)</option>
+										  <option values="">Second Sitting (2S)</option>
+										</select> 										
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2">
+										<select id="classDropdown" class="forminput"  name="class">
+											<option values="">GENERAL</option>
+											<option values="">LADIES</option>
+											<option values="">LOWER BERTH/SR.CITIZEN</option>
+											<option values="">PERSON WITH DISABILITY</option>
+											<option values="">TATKAL</option>
+											<option values="">PREMIUM TATKAL</option>
+										  </select>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3">
+										<input type="checkbox" id="disabilitycheck" value="DISABILITY">
+										<label class="checkclasses" for="disabilitycheck">Peron with Disability Concession</label>
+										<br>
+										<input type="checkbox" id="dateflexcheck" value="">
+										<label  class="checkclasses" for="dateflexcheck">Flexible with Date</label>
+									
+										<input type="checkbox" id="birthcheck" value="">
+										<label  class="checkclasses" for="birthcheck">Train with Available Berth</label>
+									
+										<br>
+										<input type="checkbox" id="railwaypasscheck" value="DISABILITY">
+										<label for="railwaypasscheck" class="checkclasses">Railway Pass Check</label>
+									</td>
+									
+								</tr>
+								<tr>
+									<td><input id="submitit" type="submit" value="Search"></td>
+								</tr>
+							</table>
+					
+					
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- --------------------------RIGHT HOME------------------------------ -->
+		<div id="rightbody">
+			<div id="welcomeheading">
+				<p id="heading">INDIAN RAILWAYS</p>
+				<div id="subheadingcover">
+
+					<p class="subheading">Safety |</p>
+					<p class="subheading">Security |</p>
+					<p class="subheading">Punctuality |</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+
+
+
+	<ul>
+		<li> Tickets booked through unauthorised agents or scripting can be released without refund.</li>
+		<li>Please input correct mobile number of passenger for getting timely alerts on booked journey.</li>
+	</ul>
+
+
+
+
+
+
+</body>
+
+</html>
