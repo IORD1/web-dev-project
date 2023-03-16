@@ -20,6 +20,7 @@ function func() {
     flag = 0;
   }
 
+
   if(/\d/.test(name)){
     alert("Enter Valid Name")
     flag = 0;
@@ -41,10 +42,12 @@ function func() {
   }
 
   var validRegexforEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
   if(!emails.match(validRegexforEmail)){
     alert("Please enter valid email address");
     flag = 0;
   }
+
 
   if(isNaN(prn)){
     alert("Please Enter Number for PNR");
