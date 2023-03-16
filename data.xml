@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <train>
+    <name>Falaknuma Lingampalli MMTS</name>
+    <code>47154</code>
+    <id>302214</id>
+    <startjun>KACHEGUDA FALAKNUMA</startjun>
+  </train>
+  <train>
+    <name>Thrissur Guruvayur Passenger</name>
+    <code>47154</code>
+    <id>281458</id>
+    <startjun>THRISUR</startjun>
+  </train>
+  <train>
+    <name>Falaknuma Lingampalli MMTS</name>
+    <code>56044</code>
+    <id>302214</id>
+    <startjun>KACHEGUDA FALAKNUMA</startjun>
+  </train>
+  <train>
+    <name>Falaknuma Lingampalli MMTS</name>
+    <code>47154</code>
+    <id>302214</id>
+    <startjun>KACHEGUDA FALAKNUMA</startjun>
+  </train>
+
+
+  
+</data>
