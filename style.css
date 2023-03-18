@@ -235,3 +235,12 @@ ul{
 #form2 p{
   color : #213d77;
 }
+
+
+.xmldata table, th, td {
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+.xmldata th, td {
+  padding: 5px;
+}
