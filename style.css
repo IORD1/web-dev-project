@@ -237,8 +237,8 @@ ul{
 }
 
 
-.xmldata table, th, td {
-  border: 1px solid black;
+.xmldata > table, th, td {
+  /* border: 1px solid black; */
   border-collapse:collapse;
 }
 .xmldata th, td {
