@@ -13,18 +13,51 @@
     <startjun>THRISUR</startjun>
   </train>
   <train>
-    <name>Falaknuma Lingampalli MMTS</name>
-    <code>56044</code>
-    <id>302214</id>
-    <startjun>KACHEGUDA FALAKNUMA</startjun>
+    <name>Porbandar Muzaffarpur Express</name>
+    <code>19269</code>
+    <id>309335</id>
+    <startjun>PORBANDAR</startjun>
   </train>
   <train>
-    <name>Falaknuma Lingampalli MMTS</name>
-    <code>47154</code>
-    <id>302214</id>
-    <startjun>KACHEGUDA FALAKNUMA</startjun>
+    <name>RAIPUR ITWARI PASS</name>
+    <code>58205</code>
+    <id>283774</id>
+    <startjun>RAIPUR JN</startjun>
   </train>
-
-
-  
+  <train>
+    <name>Gomoh-Asansol MEMU</name>
+    <code>63542</code>
+    <id>319937</id>
+    <startjun>GOMOH JN</startjun>
+  </train>
+  <train>
+    <name>Rai Bareli-Mumbai LTT Saket Express</name>
+    <code>21068</code>
+    <id>520605</id>
+    <startjun>RAE BARELI JN</startjun>
+  </train>
+  <train>
+    <name>Subramanya Road Mangalore Passenger</name>
+    <code>56646</code>
+    <id>335930</id>
+    <startjun>Subrahmanya Road</startjun>
+  </train>
+  <train>
+    <name>Ernakulam Alappuzha Passenger</name>
+    <code>56379</code>
+    <id>282535</id>
+    <startjun>ERNAKULAM JN</startjun>
+  </train>
+  <train>
+    <name>Salempur Barhaj Passenger</name>
+    <code>55145</code>
+    <id>336174</id>
+    <startjun>SALEMPUR JN</startjun>
+  </train>
+  <train>
+    <name>Bir Khandwa Shuttle</name>
+    <code>51688</code>
+    <id>17022</id>
+    <startjun>BIR JN</startjun>
+  </train>
 </data>
