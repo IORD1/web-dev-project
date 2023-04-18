@@ -1,0 +1,10 @@
+ <!DOCTYPE data
+[
+<!ELEMENT data (train)>
+<!ELEMENT train (name,code,id,startjun)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT startjun (#PCDATA)>
+<!ENTITY copyright "Copyright: IRCTC">
+]>

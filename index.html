@@ -198,7 +198,7 @@
 <div class="xmldata">
   <iframe type="text/plain" data-bind="attr: {src:data.xml }"></iframe>
 
-<button type="button" onclick="loadXMLDoc()">Get my CD collection</button>
+<button type="button" onclick="loadXMLDoc()">Get Trains</button>
 <br><br>
 <table id="demo"></table>
 
@@ -212,9 +212,11 @@ function loadXMLDoc() {
   };
   xmlhttp.open("GET", "data.xml", true);
   xmlhttp.send();
+  console.log("end of loadxml doc");
 }
 function myFunction(xml) {
   var i;
+  console.log("myfunc");
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Train</th><th>Code</th><th>Id</th><th>Start Junction</th></tr>";
   var x = xmlDoc.getElementsByTagName("train");
