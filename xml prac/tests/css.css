@@ -1,0 +1,40 @@
+
+product { 
+    display: table; 
+    border: solid 1px;
+    width: 100%;
+    
+}
+ title { 
+    display: table-cell; 
+    border: solid 1px;
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+
+}
+
+ 
+ name { 
+    display: table-cell; 
+    border: solid 1px;
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+}
+ features { 
+    display: table-cell; 
+    border: solid 1px;
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+}
+ specification { 
+    display: table-cell; 
+    border: solid 1px;
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+}
+    product:hover {background-color: coral;}
+    

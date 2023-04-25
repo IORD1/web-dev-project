@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css.css"?>
+<products>
+    <product>
+        <title>Title</title>
+        <name>Name</name>
+        <features>Features</features>
+        <specification>Specification</specification>
+    </product>
+    <product type="Optical Technology">
+        <title>Optical Technology</title>
+        <name>QKD</name>
+        <features>supports DPS</features>
+        <specification>Key transfer interface: USB/Ethernet</specification>
+    </product>
+    <product type="Optical Technology">
+        <title>Optical Technology</title>
+        <name>XGS-PON</name>
+        <features>High speed optical access netork with 10GBPS symmetrical data rates</features>
+        <specification>Supports up to 48 XGS-PON ports</specification>
+    </product>
+    <product type="Optical Technology">
+        <title>Optical Technology</title>
+        <name>DWDM</name>
+        <features>80 channels @50GHz channel spacing having 100Gbps capacity per channel</features>
+        <specification>Number of optical channels:80</specification>
+    </product>
+    <product type="Switiching and Routing">
+        <title>Switiching and Routing</title>
+        <name>100 Series Router</name>
+        <features>Switiching Fabirc Capacity:96Gbps</features>
+        <specification>Protocols supported are IPv4 and IPv6  </specification>
+    </product>
+    <product type="Switiching and Routing">
+        <title>Switiching and Routing</title>
+        <name>1000 Series Router</name>
+        <features>Static MPLS LSPs</features>
+        <specification>Protocols supported are Ethernet, IPv4 and IPv6</specification>
+    </product>
+    <product type="Wireless Technology">
+        <title>Wireless Technology</title>
+        <name>C-SAT -Fi</name>
+        <features>To provide voice and data services using satellite backhaul link</features>
+        <specification>Dual power feed smart from C-DOT green power supply unit</specification>
+    </product>
+    <product type="Wireless Technology">
+        <title>Wireless Technology</title>
+        <name>PDO</name>
+        <features>Based on C-DOt thin client board</features>
+        <specification>User friendly web based GUI or Android based API</specification>
+    </product>
+    <product type="Software application">
+        <title>Software application</title>
+        <name>SAMVAD</name>
+        <features>One to one, group message and caling</features>
+        <specification>Supported Android API level 15 or above </specification>
+    </product>
+    <product type="Software application">
+        <title>Software application</title>
+        <name>GYAN SETU</name>
+        <features>Multi lingual support</features>
+        <specification>Open source Ubuntu based platform </specification>
+    </product>
+    <product type="Other products">
+        <title>Other products</title>
+        <name>CiSTB</name>
+        <features>Provide freedom of interoperability to end users</features>
+        <specification>OTT supported </specification>
+    </product>
+    <product type="Other products">
+        <title>Other products</title>
+        <name>Green Power Source</name>
+        <features>Hybrid power source</features>
+        <specification>System rating: upto 250VA </specification>
+    </product>
+    <product type="PM-WANI">
+        <title>PM-WANIs</title>
+        <name>WAYU</name>
+        <features>Compact device which requires very less space.</features>
+        <specification>Wifi coverage: upto 50m </specification>
+    </product>
+    <product type="PM-WANI">
+        <title>PM-WANIs</title>
+        <name>WAP</name>
+        <features>Bridge mode</features>
+        <specification>Wifi coverage: upto 150m </specification>
+    </product>
+</products>
+
+
+
+

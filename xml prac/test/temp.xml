@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="temp.xsl"?>
+
+<employees>
+  <employee>
+    <name>John Doe</name>
+    <position>Manager</position>
+    <salary>50000</salary>
+  </employee>
+  <employee>
+    <name>Jane Smith</name>
+    <position>Assistant</position>
+    <salary>30000</salary>
+  </employee>
+</employees>

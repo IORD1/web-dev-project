@@ -1,0 +1,62 @@
+train {
+    display: table;
+    border: solid 1px black;
+    width: 80vw;
+    border-radius: 30px;
+}
+
+
+data{
+    margin: 60px;
+    height: auto;
+    width: 100vw;
+
+
+}
+
+name{
+    display: table-cell;
+    border: solid 1px;
+    width: 40%;
+    text-align: center;
+    padding: 15px;
+
+}
+
+
+code {
+    display: table-cell;
+    border: solid 1px;
+    width: 20%;
+    text-align: center;
+    padding: 15px;
+}
+
+id {
+    display: table-cell;
+    border: solid 1px;
+    width: 20%;
+    text-align: center;
+    padding: 15px;
+}
+
+startjun {
+    display: table-cell;
+    border: solid 1px;
+    width: 20%;
+    text-align: center;
+    padding: 15px;
+}
+
+train:hover {
+    background-color: lightblue;
+    border: 2px dotted gray;
+    transform: scale(1.04);
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+name:hover , code:hover , id:hover, startjun:hover{
+    background-color: rgb(139, 175, 187);
+    box-shadow: 5px 5px 5px gray;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}

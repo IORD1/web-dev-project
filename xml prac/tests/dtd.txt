@@ -1,0 +1,9 @@
+<!DOCTYPE note
+[
+<!ELEMENT products (product+)>
+<!ELEMENT product(Title, name, features, specification)
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT features (#PCDATA)>
+<!ELEMENT specification (#PCDATA)>
+]>

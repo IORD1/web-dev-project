@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE data SYSTEM "structure.dtd">
+<!-- <!DOCTYPE data SYSTEM "structure.dtd"> -->
+<!-- <?xml-stylesheet type="text/css" href="style.css"?> -->
 <?xml-stylesheet type="text/xsl" href="xmlstyle.xsl"?>
-
-<data xmlns="https://www.w3schools.com"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="https://www.w3schools.com/xml schema.xsd">
-
+<data>
+  <train>
+    <name>NAME</name>
+    <code>CODE</code>
+    <id>ID</id>
+    <startjun>START JUNCTION</startjun>
+  </train>
   <train>
     <name>Falaknuma Lingampalli MMTS</name>
     <code>47154</code>
@@ -67,3 +70,9 @@ xsi:schemaLocation="https://www.w3schools.com/xml schema.xsd">
     <startjun>BIR JN</startjun>
   </train>
 </data>
+
+<!-- 
+
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com/xml schema.xsd" -->
